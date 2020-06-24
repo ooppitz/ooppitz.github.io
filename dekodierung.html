@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="dekodierung.js"></script>
+
+</head>
+<body>
+    
+    <!-- Header -->
+
+    <h1>Auswertung</h1>
+   
+    <!-- TextArea -->
+
+    <label id="label_11">  Bitte den verschlüsselten Text eingeben: </label>
+
+      <div>
+        <textarea id="eingabeFeld" name="t1" cols="40" rows="6"
+          data-component="textarea" required="" aria-labelledby="label_11">
+        </textarea>
+      </div>
+
+
+    <!-- Button -->
+
+    <button onclick="myFunction()">Dekodieren</button>
+   
+    <!-- Textfeld -->
+
+    <div data-component="text">
+        <p><b>Entschlüsselte Antwort:</b></p>
+        <fieldset>
+          <label id="output"></label>  
+        </fieldset>
+      </div>
+
+</body>
+</html>
